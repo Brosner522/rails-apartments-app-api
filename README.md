@@ -22,20 +22,29 @@ Check your progress by: Running the Rails server and using Postman make requests
 
 We're going to build an app for a Gym create the following database structure:
 
-- You will have three models (and their corresponding tables) `Apartment`, `Tenant` and `Lease`
-- A Tenant `has_many` apartments and `has_many` leases
-- An apartment `has_many` tenants and `has_many` leases
-- A lease `belongs_to` an apartment and `belongs_to` a tenant
+<!-- - You will have three models (and their corresponding tables) `Apartment`, `Tenant` and `Lease` -->
+<!-- - A Tenant `has_many` apartments and `has_many` leases -->
+<!-- - An apartment `has_many` tenants and `has_many` leases -->
+<!-- - A lease `belongs_to` an apartment and `belongs_to` a tenant -->
 
 # Deliverables:
 
 * The ability to create, read, update and delete **Apartment**
-* Apartment will have a number
+    <!-- * routes -->
+    <!-- * actions -->
+    <!-- * serializer -->
+<!-- * Apartment will have a number -->
 * The ability to create, read, update and delete **Tenant**
-* Tenant will have name and age
+    <!-- * routes -->
+    <!-- * actions -->
+    <!-- * serializer -->
+<!-- * Tenant will have name and age -->
 * The ability to create and delete **Lease**
-* Make sure tenant created without a name.
-* Make sure tenant's age is >= 18 years.
+    <!-- * routes -->
+    <!-- * actions -->
+    <!-- * serializer -->
+<!-- * Make sure tenant created without a name. -->
+<!-- * Make sure tenant's age is >= 18 years. -->
 
 # Instructions:
 * Fork this repository
