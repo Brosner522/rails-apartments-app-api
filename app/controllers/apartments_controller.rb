@@ -30,7 +30,7 @@ class ApartmentsController < ApplicationController
         apartment = Apartment.find_by(id: params[:id])
         if apartment
             apartment.destroy 
-            render json: {"apartment demolished"} 
+            render json: {} 
         end
     end
 

@@ -31,7 +31,7 @@ class TenantsController < ApplicationController
         tenant = Tenant.find_by(id: params[:id])
         if tenant
             tenant.destroy
-            render json: {"tenant kicked out"}
+            render json: {}
         end
     end
 
