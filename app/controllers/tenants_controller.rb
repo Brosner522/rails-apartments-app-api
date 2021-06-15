@@ -22,7 +22,7 @@ class TenantsController < ApplicationController
     def update
         tenant = Tenant.find(params[:id])
         tenant.update(tenant_params)
-        render json: tenant 
+        render json: tenant
     end
     
     
